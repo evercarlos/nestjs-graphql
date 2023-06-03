@@ -1,0 +1,1 @@
+export {ResolversModoule } from './resolvers.module'

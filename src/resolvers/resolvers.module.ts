@@ -12,4 +12,4 @@ import { RandomModule } from "./random/random.module";
         RandomModule,
     ]
 })
-export class ResolversMdoule {}
+export class ResolversModoule {}

@@ -2,7 +2,7 @@ import { join } from 'path';
 import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
-import { ResolversMdoule } from './resolvers/resolvers.module';
+import { ResolversModoule } from './resolvers';
 // import { ApolloServerPluginLandingPageLocalDefault } from 'apollo-server-core';
 
 @Module({
@@ -17,7 +17,7 @@ import { ResolversMdoule } from './resolvers/resolvers.module';
       ]*/
     }),
     /**importante para uso de grapql***/
-    ResolversMdoule,
+    ResolversModoule,
   ],
   controllers: [],
   providers: [],
