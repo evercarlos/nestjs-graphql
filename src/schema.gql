@@ -2,6 +2,18 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+"""Client data"""
+type Customer {
+  """client id"""
+  documentNumber: String
+
+  """client name"""
+  names: String
+
+  """client lastname"""
+  lastName: String
+}
+
 type Query {
   """Hola mundo desde grapql"""
   hello: String!
@@ -9,4 +21,7 @@ type Query {
 
   """From zero to argument TO"""
   randomZeroTo(to: Int): Int!
+
+  """Muestra un cliente"""
+  findCustomer: Customer
 }
