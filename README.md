@@ -6,7 +6,6 @@
 ## creamos un modulo: nest g mo helloWorld
 ## creamos un resolve: nest g r helloWorld --no-spec
     * los resolve van en los providers y son como los controllers
-## Ver el endpoint de graphql: http://localhost:3000/graphql
 ## instalamos apolo server 
  -  npm install apollo-server-core
 ## Para ejecutar el proyecto
