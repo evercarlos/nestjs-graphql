@@ -11,6 +11,8 @@
  -  npm install apollo-server-core
 ## Para ejecutar el proyecto
 npm run start:dev
+##### Ejemplos de query ########
+Ingresar a la url: http://localhost:3000/graphql
 ## Ejecutar query hola mundo
 
 {
@@ -19,5 +21,13 @@ npm run start:dev
 ## query con argumentos graphql
 {
  randomZeroTo(to: 1)
+}
+## query Customer: Mostrar el ObjectType client
+{
+  findCustomer {
+    documentNumber,
+    names,
+    lastName
+  }
 }
   

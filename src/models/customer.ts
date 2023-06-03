@@ -17,7 +17,7 @@ export class Customer {
     @Field({nullable:true, description: 'client lastname'})
     public lastName: string;
 
-    public static create(impl: ICostumer): Customer {
+    public static create(impl: ICustumer): Customer {
         if(impl) {
             const customer:Customer = new Customer();
             if(!impl.documentNumber || impl.documentNumber.length === 0) {
@@ -35,7 +35,7 @@ export class Customer {
     }
 }
 
-export interface ICostumer {
+export interface ICustumer {
 
     documentNumber: string;
     names: string;
