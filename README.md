@@ -9,7 +9,10 @@
 ## Ver el endpoint de graphql: http://localhost:3000/graphql
 ## instalamos apolo server 
  -  npm install apollo-server-core
+## Para ejecutar el proyecto
+npm run start:dev
 ## Ejecutar query hola mundo
+
 {
   hello
 }
